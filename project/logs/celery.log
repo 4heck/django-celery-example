@@ -1,0 +1,44 @@
+[2020-05-23 12:21:55,076: INFO/MainProcess] Connected to redis://redis:6379/0
+[2020-05-23 12:21:55,084: INFO/MainProcess] mingle: searching for neighbors
+[2020-05-23 12:21:56,104: INFO/MainProcess] mingle: all alone
+[2020-05-23 12:21:56,117: WARNING/MainProcess] /usr/local/lib/python3.8/site-packages/celery/fixups/django.py:202: UserWarning: Using settings.DEBUG leads to a memory
+            leak, never use this setting in production environments!
+  warnings.warn('''Using settings.DEBUG leads to a memory
+[2020-05-23 12:21:56,118: INFO/MainProcess] celery@07c8e8dbd0d8 ready.
+[2020-05-23 12:21:56,761: INFO/MainProcess] Received task: tasks.sample_tasks.create_task[8d623d1d-5d6f-44c7-86c5-671e45186b06]  
+[2020-05-23 12:21:56,764: INFO/MainProcess] Received task: tasks.sample_tasks.create_task[cabb7033-9fea-4869-974c-068f9344d83b]  
+[2020-05-23 12:21:56,767: INFO/MainProcess] Received task: tasks.sample_tasks.create_task[7aa8c4b7-441d-4c3d-b312-68447b7d4188]  
+[2020-05-23 12:22:01,201: INFO/MainProcess] Events of group {task} enabled by remote.
+[2020-05-23 12:22:06,776: INFO/ForkPoolWorker-6] Task tasks.sample_tasks.create_task[8d623d1d-5d6f-44c7-86c5-671e45186b06] succeeded in 10.010663879998901s: True
+[2020-05-23 12:22:06,777: INFO/ForkPoolWorker-7] Task tasks.sample_tasks.create_task[cabb7033-9fea-4869-974c-068f9344d83b] succeeded in 10.01200449099997s: True
+[2020-05-23 12:22:07,808: INFO/MainProcess] Received task: tasks.sample_tasks.create_task[2db2ff89-ae89-434a-8edf-60ad26114d26]  
+[2020-05-23 12:22:17,820: INFO/ForkPoolWorker-6] Task tasks.sample_tasks.create_task[2db2ff89-ae89-434a-8edf-60ad26114d26] succeeded in 10.010729025998444s: True
+[2020-05-23 12:22:26,803: INFO/ForkPoolWorker-8] Task tasks.sample_tasks.create_task[7aa8c4b7-441d-4c3d-b312-68447b7d4188] succeeded in 30.031953211000655s: True
+[2020-05-23 12:22:33,555: INFO/MainProcess] Connected to redis://redis:6379/0
+[2020-05-23 12:22:33,563: INFO/MainProcess] mingle: searching for neighbors
+[2020-05-23 12:22:34,583: INFO/MainProcess] mingle: all alone
+[2020-05-23 12:22:34,603: WARNING/MainProcess] /usr/local/lib/python3.8/site-packages/celery/fixups/django.py:202: UserWarning: Using settings.DEBUG leads to a memory
+            leak, never use this setting in production environments!
+  warnings.warn('''Using settings.DEBUG leads to a memory
+[2020-05-23 12:22:34,603: INFO/MainProcess] celery@2ffaae6a488b ready.
+[2020-05-23 12:22:34,736: INFO/MainProcess] Connected to redis://redis:6379/0
+[2020-05-23 12:22:34,748: INFO/MainProcess] mingle: searching for neighbors
+[2020-05-23 12:22:34,766: INFO/MainProcess] sync with celery@eab52662e0fb
+[2020-05-23 12:22:34,810: INFO/MainProcess] Connected to redis://redis:6379/0
+[2020-05-23 12:22:34,818: INFO/MainProcess] mingle: searching for neighbors
+[2020-05-23 12:22:34,835: INFO/MainProcess] sync with celery@a0c439e088be
+[2020-05-23 12:22:35,771: INFO/MainProcess] mingle: sync with 1 nodes
+[2020-05-23 12:22:35,771: INFO/MainProcess] mingle: sync complete
+[2020-05-23 12:22:35,781: WARNING/MainProcess] /usr/local/lib/python3.8/site-packages/celery/fixups/django.py:202: UserWarning: Using settings.DEBUG leads to a memory
+            leak, never use this setting in production environments!
+  warnings.warn('''Using settings.DEBUG leads to a memory
+[2020-05-23 12:22:35,781: INFO/MainProcess] celery@eab52662e0fb ready.
+[2020-05-23 12:22:35,838: INFO/MainProcess] mingle: sync with 1 nodes
+[2020-05-23 12:22:35,839: INFO/MainProcess] mingle: sync complete
+[2020-05-23 12:22:35,857: WARNING/MainProcess] /usr/local/lib/python3.8/site-packages/celery/fixups/django.py:202: UserWarning: Using settings.DEBUG leads to a memory
+            leak, never use this setting in production environments!
+  warnings.warn('''Using settings.DEBUG leads to a memory
+[2020-05-23 12:22:35,857: INFO/MainProcess] celery@a0c439e088be ready.
+[2020-05-23 12:22:40,381: INFO/MainProcess] Events of group {task} enabled by remote.
+[2020-05-23 12:22:40,382: INFO/MainProcess] Events of group {task} enabled by remote.
+[2020-05-23 12:22:40,382: INFO/MainProcess] Events of group {task} enabled by remote.
